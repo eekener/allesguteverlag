@@ -1,0 +1,225 @@
+body{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5vh;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      overflow-y:hidden;
+      width: 100%;
+      height: 100vh;
+}
+
+#imhandel{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y:hidden;
+}
+#kontakt{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y:hidden;
+
+}
+
+#home{
+  background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.11)), to(rgba(0, 0, 0, 0.6))),
+        url(img/background.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(0, 0, 0, 0.6)),
+        url(img/background.jpg);
+        width: 100%;
+        height: 100vh;
+}
+#schutz{
+  background-color: #858585;
+  overflow-y:scroll;
+}
+#career{
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.11)), to(rgba(0, 0, 0, 0.6))),
+      url(img/career.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(0, 0, 0, 0.6)),
+      url(img/career.jpg);
+}
+#impressum{
+  background-color: #858585;
+  width: 100%;
+  height: 100vh;
+}
+#karriere{
+      width: 100%;
+      height: 100vh;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      overflow-y:hidden;
+
+}
+
+#unternehmen{
+  background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+      width: 100%;
+      height: 100vh;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      overflow-y:hidden;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.11)), to(rgba(0, 0, 0, 0.6))),
+        url(img/company.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(0, 0, 0, 0.6)),
+        url(img/company.jpg);
+}
+
+/*Main Page*/
+/* The image used */
+.navigation{
+  background-color: #e8e8e8;
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    font-size:130%;
+}
+.logo{
+  width: 20%;
+  height: auto;
+}
+.jumbotron {
+    background: none;
+    height: 100px;
+}
+.vertical-center {
+  min-height: 70%;
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+          width: 100%;
+}
+.jumbotron h1{
+  font-size: 850%;
+  color: #dadada;
+  text-shadow: 2px 2px #000;
+}
+.jumbotron p{
+  color: #dadada;
+  text-shadow: 2px 2px #000;
+  font-size: 150%;
+}
+.footer{
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #bbbaba;
+}
+.impress{
+  font-size: 130%;
+  text-decoration: none;
+  padding-left: 15px;
+  color:#717070;
+}
+.impress:hover{
+  text-decoration: none;
+  color:#000000;
+}
+
+/*SECOND PAGE*/
+/*
+.fluid-container img{
+max-height: 85%;
+max-width: 18%;
+
+}
+*/
+.img-fluid {
+  width: 13%;
+height: auto;
+    }
+/*THIRD PAGE*/
+.story h1{
+  font-size: 450%;
+  color: #f9f9f9;
+  text-shadow: 2px 2px #000;
+}
+.story p{
+  color: #f9f9f9;
+  text-shadow: 2px 2px #000;
+  font-size: 150%;
+}
+
+/*KONTAKT*/
+.backgroundphoto{
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.11)), to(rgba(0, 0, 0, 0.6))),
+      url(img/kontakt.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.11), rgba(0, 0, 0, 0.6)),
+      url(img/kontakt.jpg);
+}
+.text{
+  color:#cfcfcf;
+}
+.backgroundphoto2{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right;
+  height: 100%;
+  width: 50%;
+  background-color: #868585;
+}
+.header{
+  font-weight: bold;
+}
+
+/* KARRIERE*/
+#karriere p{
+  font-size: 120%;
+  color: #fff;
+}
+#karriere h1{
+  color: #fff;
+}
+.karr{
+  color: white;
+  text-decoration: none;
+}
+.karr:hover{
+  text-decoration: none;
+  color: black;
+}
+.foot-text{
+  color: #000 !important;
+}
+/*DATENSCHUTZ*/
+
+.footer2{
+  position: absolute;
+    bottom: -1000;
+    width: 100%;
+    height: 30px;
+    background-color: #bbbaba;
+}
